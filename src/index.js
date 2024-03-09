@@ -1,8 +1,7 @@
-const express = require('express')
-const mongoose = require('mongoose')
-const dotenv = require('dotenv')
-
-const bookRoutes = require('./routes/book.route')
+import express from 'express'
+import mongoose from 'mongoose'
+import dotenv from 'dotenv'
+import bookRoutes from "./routes/book.route.js"
 
 const app = express()
 
